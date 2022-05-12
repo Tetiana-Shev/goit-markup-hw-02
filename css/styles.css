@@ -1,0 +1,86 @@
+/* Цвет заголовков #212121
+Цвет основного текста #757575
+Акцент (синий) #2196F3
+Белый #FFFFFF
+Футер (мейл и телефон) rgba(255, 255, 255, 0.6); */
+
+/*Цвет фона 
+1 - #FFFFFF
+2 - #2F303A
+3 - #E5E5E5
+4 - #F5F4FA*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white: #FFFFFF;
+}
+body {
+    color: var(--primary-text-color);
+    background-color: #E5E5E5;
+}
+.list {
+    list-style: none;
+}
+.logo {color: #000000;}
+.web {color: var(--accent-color);}
+.studio {color: var(--white);}
+
+/*Site nav*/
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contact a{
+    color: var(--primary-text-color);
+}
+.contact a:hover,
+.contact a:focus {
+    color: var(--accent-color);
+}
+.address {
+    color:var(--white);
+}
+.address-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*СТИЛИ ДЛЯ index.html*/
+/*Hero*/
+.hero-title {
+    color: var(--white)
+};
+
+/*Section*/
+.section-title {
+    color: var(--title-text-color);
+}
+.advantage-list, 
+.work-list, 
+.team-list, 
+.footer-list, 
+.advantages-list {
+    list-style: none;
+}
+.team-list .title,
+.advantages-list .title,
+.section-title {
+    color: var(--title-text-color);
+}
+
+/*Button*/
+.button {
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+
+/*СТИЛИ ДЛЯ portfolio.html*/
+
