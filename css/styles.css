@@ -24,7 +24,7 @@
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-bgc);
-    font-family: Roboto, sans-serif; 
+    font-family: Roboto, serif; 
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -36,7 +36,7 @@ body {
 .logo {color: #000000;}
 .web {color: var(--accent-color);}
 .logo, .web, .studio {
-    font-family: Raleway, cursive;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1,19;
@@ -60,6 +60,10 @@ body {
     color: var(--accent-color);}
 
 /*CONTACT LIST*/
+.contact list {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
 .contact a{
     color: var(--primary-text-color);
     text-decoration: none;}
@@ -103,7 +107,7 @@ body {
     line-height: 1.19;}
 .section-team {
     background-color: var(--bgc-team);} 
- .work-list, .team-list, .footer-list, .advantages-list {list-style: none;}
+.work-list, .team-list, .footer-list, .advantages-list {list-style: none;}
 .advantages-list .title,
 .team-list .title,
 .section-title {
@@ -116,16 +120,18 @@ body {
 /*Logo*/
 .studio {color: var(--white);}
 
-.address {
+.footer-link {
+    font-style: normal;
     color:var(--white);
     text-decoration: none;}
-.address-contact {
+.footer-text {
+    font-style: normal;
     color: var(--footer-contact);
     text-decoration: none;}
-.address-contact:hover,
-.address:hover,
-.address-contact:focus,
-.address:focus {
+.footer-text:hover,
+.footer-link:hover,
+.footer-text:focus,
+.footer-link:focus {
     color:var(--accent-color)}
 
 
