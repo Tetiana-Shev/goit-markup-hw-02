@@ -23,7 +23,7 @@
 
 body {
     color: var(--primary-text-color);
-    background-color: var(--primary-bgc);
+    background-color: var(--white);
     font-family: Roboto, serif; 
     font-weight: 400;
     font-size: 14px;
@@ -95,6 +95,7 @@ body {
     background-color: #188CE8}
 
 /*SECTION*/
+footer {background-color: var(--bgc-hero-color);}
 .section-title {
     color: var(--title-text-color);
     font-weight: 700;
